@@ -1,0 +1,24 @@
+{
+    "name": "turanct/showpad-api-guzzle",
+    "description": "Guzzle adapter for the Showpad API client",
+    "type": "library",
+    "homepage": "https://github.com/turanct/showpad-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Daelman",
+            "email": "toon@sumocoders.be",
+            "homepage": "http://turanct.wordpress.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "turanct/showpad-api": "~1.0",
+        "guzzlehttp/guzzle": "v3.8.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Showpad": "src"
+        }
+    }
+}
